@@ -1,7 +1,29 @@
 # OpenSuse-Tumbleweed-installation-and-documents.
 
-> Unlike Arch Linux or Gentoo, OpenSuse installation pretty straight foward actually, this docs is mainly about troubleshoot for my need.
+## Packages to install
+```
+zypper install ibus ibus-unikey qemu virt-manager swtpm android-tools google-noto-sans-cjk-fonts flatseal btop vim ptyxis ghostty paper showtime resources android-tools android-udev-rules syncthing
+```
 
+## Packages to remove
+```
+zypper remove gnome-connections gnome-maps yelp nano evince gnome-chess totem gnome-photos gnome-photos lightsoff swell-foop quadrapassel yast2 yast2-alternatives opensuse-welcome opensuse-welcome-launcher gnome-packagekit seahorse gnome-system-monitor iagno dconf-editor gnome-console
+```
+
+## Nvidia
+https://en.opensuse.org/SDB:NVIDIA_drivers
+
+## Edit hostname
+* just edit **/etc/hostname**
+
+## Wayland for electron
+Add ``ELECTRON_OZONE_PLATFORM_HINT=auto`` to ``/etc/environment``
+
+## TPM2 
+https://news.opensuse.org/2024/09/20/quickstart-fde-yast2/
+
+
+## Troubleshoot
 <pre>
 ERROR: the validation of PCR 15 failed
 ERROR: Missing measure-pcr-prediction file
