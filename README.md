@@ -2,7 +2,7 @@
 
 ## Packages to install
 ```
-zypper install ibus ibus-unikey qemu virt-manager libvirt vde2 iptables systemd-networkd swtpm android-tools google-noto-sans-cjk-fonts flatseal btop vim ptyxis ghostty paper showtime resources android-tools android-udev-rules syncthing secrets impression extension-manager keepassxc
+zypper install ibus ibus-unikey qemu virt-manager libvirt vde2 iptables systemd-networkd swtpm android-tools google-noto-sans-cjk-fonts flatseal btop vim ptyxis ghostty paper showtime resources android-tools android-udev-rules syncthing secrets impression extension-manager keepassxc vulkan-tools vulkan-loader
 ```
 
 ## Packages to remove
