@@ -2,7 +2,7 @@
 
 ## Packages to install
 ```
-zypper install ibus ibus-unikey qemu virt-manager libvirt vde2 iptables systemd-networkd swtpm android-tools google-noto-sans-cjk-fonts flatseal btop vim ptyxis ghostty paper showtime resources android-tools android-udev-rules syncthing impression extension-manager keepassxc secrets vulkan-tools vulkan-loader adobe-sourcesans3-fonts google-opensans-fonts google-poppins-fonts mozilla-openh264 opi
+zypper install ibus ibus-unikey qemu virt-manager libvirt vde2 iptables systemd-networkd swtpm git android-tools google-noto-sans-cjk-fonts flatseal btop vim ptyxis ghostty paper showtime resources android-tools android-udev-rules syncthing impression extension-manager keepassxc secrets vulkan-tools vulkan-loader jetbrains-mono-fonts adobe-sourcesans3-fonts google-opensans-fonts google-poppins-fonts mozilla-openh264 opi
 ```
 
 ## Packages to remove
